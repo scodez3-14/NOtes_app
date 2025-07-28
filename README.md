@@ -1,46 +1,40 @@
-<h1 align="center">📝 MERN Stack Note Taking App ✨</h1>
+# 📝 Notes App
 
-![Demo App](/frontend/public/screenshot-for-readme.png)
-
-Highlights:
-
-- 🧱 Full-Stack App Built with the MERN Stack (MongoDB, Express, React, Node)
-- ✨ Create, Update, and Delete Notes with Title & Description
-- 🛠️ Build and Test a Fully Functional REST API
-- ⚙️ Rate Limiting with Upstash Redis — a Real-World Concept Explained Simply
-- 🚀 Completely Responsive UI
-- 🌐 Explore HTTP Methods, Status Codes & SQL vs NoSQL
-- 📦 Deployment Guide Included — Add the Live App to Your Resume
-- 📚 Designed for Absolute Beginners
+A simple and clean **Notes App** built with the **MERN Stack** (MongoDB, Express, React, Node.js) and styled using **Tailwind CSS**.
 
 ---
 
-## 🧪 .env Setup
+## ✨ Features
 
-### Backend (`/backend`)
+- 🔹 Create new notes
+- 🖊️ Edit existing notes
+- ❌ Delete notes
+- 📋 View all notes in a clean layout
+- 💨 Stylish and responsive UI using Tailwind CSS
 
-```
-MONGO_URI=<your_mongo_uri>
+---
 
-UPSTASH_REDIS_REST_URL=<your_redis_rest_url>
-UPSTASH_REDIS_REST_TOKEN=<your_redis_rest_token>
+## 🛠️ Tech Stack
 
-NODE_ENV=development
-```
+- **Frontend**: React, Tailwind CSS
+- **Backend**: Node.js, Express
+- **Database**: MongoDB (with Mongoose)
+- **Other Tools**: Axios, Dotenv, Nodemon
 
-## 🔧 Run the Backend
+---
 
-```
+## 🚀 Getting Started
+
+### 📦 Backend Setup
+
+```bash
 cd backend
 npm install
+# Create a .env file and add MONGO_URI and PORT and others
 npm run dev
-```
 
-## 💻 Run the Frontend
-
-```
 cd frontend
 npm install
 npm run dev
-```
-# NOtes_app
+
+
